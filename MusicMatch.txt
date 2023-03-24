@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<link rel="stylesheet" href="CSS/styling.css"
+</head>
+<body>
+
+<!-- I'm going to style these later with CSS-->
+
+<i>
+<img src="Images/MusicMatch.png" width="104" height="104">
+</i>
+<pre>
+<h1> MusicMatch</h1> 
+
+
+
+<h2> Get music recommendations similar to your favourite songs</h2>
+</pre>
+
+
+<br>
+
+<div class="flex-parent jc-center">
+  <button type="submit" class="green margin-right">Upload a song</button>
+  <button type="submit" class="magenta">Get recommendations</button>
+</div>
+
+
+
+
+</body>
+</html>
