@@ -1,20 +1,24 @@
 body {
 	background-color: black;
+	
 }
 
 h1 {
 	color: white;
 	font-size: 200%;
 	text-align: center;
+	background-color: hsl(120,100%,50%);;
 }
 
 h2 {
 	color: white;
-	font-size: 140%;
+	font-size: 180%;
 	text-align: center;
 	font-family: 'Courier New', monospace;
 }
-
+img {
+  border-radius: 40%;
+}
 .flex-parent {
   display: flex;
 }
@@ -25,4 +29,55 @@ h2 {
 
 button.margin-right {
   margin-right: 20px;
+  font-size: 180%;
+  color: lightgreen;
 }
+
+button.magenta{
+	margin-right: 20px;
+	font-size: 180%;
+	color: lightgreen;
+	
+}
+
+body, html {
+  height: 100%;
+  margin: 30;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%;
+
+  /* Image centered and scaled */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+/* Images used */
+
+.img5 { background-image: url("bk3.jpg"); }
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: sticky;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -150%);
+  z-index: 2;
+  width: 265px;
+  padding: 20px;
+  text-align: center;
+}
+
